@@ -69,7 +69,7 @@ export default {
     ...mapActions(['getEventsData', 'getGeolocation']),
     ...mapMutations(['addToFavorites', 'setSortOption', 'setSegment']),
     getPageLink(pageNumber) {
-      return pageNumber === 1 ? '' : `?page=${pageNumber}`;
+      return pageNumber === 1 ? '?' : `?page=${pageNumber}`;
     },
     changeSortOption(option) {
       this.setSortOption(option);
@@ -90,7 +90,7 @@ export default {
       });
     },
     segment(segment) {
-      this.getEventsData({ pageNumber: 0, segment });
+      this.getEventsData({ pageNumber: this.$route.query.page, segment });
     },
   },
   created() {

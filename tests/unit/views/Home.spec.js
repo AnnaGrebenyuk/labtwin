@@ -67,8 +67,8 @@ describe('Home Page', () => {
     expect(getEventsData).toBeCalledTimes(3);
   });
 
-  it('generates correct links for different page nummbers', () => {
-    expect(wrapper.vm.getPageLink(1)).toEqual('');
+  it('generates correct links for different page numbers', () => {
+    expect(wrapper.vm.getPageLink(1)).toEqual('?');
     expect(wrapper.vm.getPageLink(2)).toEqual('?page=2');
   });
 });

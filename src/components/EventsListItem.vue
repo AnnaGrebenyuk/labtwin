@@ -77,7 +77,8 @@ export default {
       return moment(this.event.startDate).format('MMM DD');
     },
     time() {
-      return `${moment(this.event.startDate).format('ddd')} - ${moment(this.event.startTime, 'HH:mm:ss').format('HH:mm')}`;
+      const startTimeString = this.event.startTime ? `- ${moment(this.event.startTime, 'HH:mm:ss').format('HH:mm')}` : '';
+      return `${moment(this.event.startDate).format('ddd')} ${startTimeString}`;
     },
   },
 };
