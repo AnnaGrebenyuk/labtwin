@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm col-md col-lg-6"
+      >
+        <fieldset
+          class="form-group"
+        >
+          <div
+            class="form-row"
+          >
+            <legend
+              class="col-2 bv-no-focus-ring col-form-label"
+              tabindex="-1"
+            >
+              Sort by:
+            </legend>
+            <div
+              class="bv-no-focus-ring col"
+              role="group"
+              tabindex="-1"
+            >
+              <select
+                class="select-sort custom-select"
+              >
+                <option
+                  value="Most Popular"
+                >
+                  Most Popular
+                </option>
+                <option
+                  value="Distance"
+                >
+                  Distance
+                </option>
+                <option
+                  value="Name: A - Z"
+                >
+                  Name: A - Z
+                </option>
+                <option
+                  value="Name: Z - A"
+                >
+                  Name: Z - A
+                </option>
+                <option
+                  value="Date"
+                >
+                  Date
+                </option>
+              </select>
+              <!---->
+              <!---->
+              <!---->
+            </div>
+          </div>
+        </fieldset>
+      </div>
+       
+      <div
+        class="col-sm col-md col-lg-6"
+      >
+        <button
+          class="btn btn-segment btn-secondary"
+          type="button"
+        >
+          
+          Sports
+        
+        </button>
+        <button
+          class="btn btn-segment btn-secondary"
+          type="button"
+        >
+          
+          Music
+        
+        </button>
+        <button
+          class="btn btn-segment btn-secondary"
+          type="button"
+        >
+          
+          Arts & Theatre
+        
+        </button>
+        <button
+          class="btn btn-segment btn-secondary"
+          type="button"
+        >
+          
+          All
+        
+        </button>
+      </div>
+    </div>
+     
+    <div
+      class="row justify-content-center"
+    >
+      <div
+        class="col-sm-4 col-md-4 col-lg-4"
+      >
+        <nav
+          aria-hidden="false"
+        >
+          <ul
+            aria-disabled="false"
+            aria-label="Pagination"
+            class="pagination b-pagination"
+            role="menubar"
+          >
+            <li
+              aria-hidden="true"
+              class="page-item disabled"
+              role="presentation"
+            >
+              <span
+                aria-disabled="true"
+                aria-label="Go to first page"
+                class="page-link"
+                role="menuitem"
+              >
+                «
+              </span>
+            </li>
+            <li
+              aria-hidden="true"
+              class="page-item disabled"
+              role="presentation"
+            >
+              <span
+                aria-disabled="true"
+                aria-label="Go to previous page"
+                class="page-link"
+                role="menuitem"
+              >
+                ‹
+              </span>
+            </li>
+            <!---->
+            <li
+              class="page-item"
+              role="presentation"
+            >
+              <a
+                aria-checked="false"
+                aria-label="Go to page 1"
+                aria-posinset="1"
+                aria-setsize="1"
+                class="page-link"
+                href="#"
+                role="menuitemradio"
+                tabindex="0"
+              >
+                1
+              </a>
+            </li>
+            <!---->
+            <li
+              aria-hidden="true"
+              class="page-item disabled"
+              role="presentation"
+            >
+              <span
+                aria-disabled="true"
+                aria-label="Go to next page"
+                class="page-link"
+                role="menuitem"
+              >
+                ›
+              </span>
+            </li>
+            <li
+              aria-hidden="true"
+              class="page-item disabled"
+              role="presentation"
+            >
+              <span
+                aria-disabled="true"
+                aria-label="Go to last page"
+                class="page-link"
+                role="menuitem"
+              >
+                »
+              </span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="container"
+  >
+    <div
+      class="list-group"
+    />
+  </div>
+</div>
+`;

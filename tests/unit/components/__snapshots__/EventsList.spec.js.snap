@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventsList renders props.event.name when passed 1`] = `
+<b-container-stub
+  tag="div"
+>
+  <b-list-group-stub
+    tag="div"
+  />
+</b-container-stub>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favorites View renders correctly 1`] = `
+<div>
+  <b-container-stub
+    tag="div"
+  >
+    <b-row-stub
+      alignh="center"
+      tag="div"
+    >
+      <b-pagination-stub
+        align="left"
+        arialabel="Pagination"
+        ellipsistext="…"
+        firsttext="«"
+        labelfirstpage="Go to first page"
+        labellastpage="Go to last page"
+        labelnextpage="Go to next page"
+        labelpage="Go to page"
+        labelprevpage="Go to previous page"
+        lasttext="»"
+        limit="5"
+        nexttext="›"
+        perpage="15"
+        prevtext="‹"
+        totalrows="16"
+        value="1"
+      />
+    </b-row-stub>
+  </b-container-stub>
+   
+  <events-list-stub
+    events=",,,,,,,,,,,,,"
+    favoritesmode="true"
+  />
+</div>
+`;
