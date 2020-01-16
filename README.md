@@ -1,5 +1,7 @@
 # labtwin
 
+The default location that is used in the application is Berlin geolocation, so when the user doesn't share his location all the events are displayed considering this location.
+
 ## Project setup
 ```
 yarn install
